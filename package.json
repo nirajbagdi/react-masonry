@@ -1,0 +1,36 @@
+{
+    "name": "react-super-masonry",
+    "version": "1.0.0",
+    "description": "A blazing-fast, lightweight, and fully responsive masonry layout for React.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [
+        "react",
+        "masonry",
+        "layout",
+        "responsive",
+        "grid",
+        "typescript"
+    ],
+    "author": "Niraj Bagdi",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "^17.0.0 || ^18.0.0",
+        "react-dom": "^17.0.0 || ^18.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nirajbagdi/react-super-masonry.git"
+    }
+}
