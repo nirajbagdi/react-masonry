@@ -1,2 +1,2 @@
-export { default as Masonry } from './Masonry';
+export { default } from './Masonry';
 export type { MasonryProps } from './Masonry';
