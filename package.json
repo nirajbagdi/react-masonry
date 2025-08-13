@@ -1,7 +1,7 @@
 {
-    "name": "react-super-masonry",
+    "name": "@nirajbagdi/react-masonry",
     "version": "1.0.0",
-    "description": "A blazing-fast, lightweight, and fully responsive masonry layout for React.",
+    "description": "A lightweight, responsive masonry layout component for React.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
@@ -31,6 +31,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/nirajbagdi/react-super-masonry.git"
+        "url": "https://github.com/nirajbagdi/react-masonry.git"
     }
 }
