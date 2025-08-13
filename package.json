@@ -21,8 +21,8 @@
     "author": "Niraj Bagdi",
     "license": "MIT",
     "peerDependencies": {
-        "react": "^17.0.0 || ^18.0.0",
-        "react-dom": "^17.0.0 || ^18.0.0"
+        "react": ">=17.0.0",
+        "react-dom": ">=17.0.0"
     },
     "devDependencies": {
         "typescript": "^5.0.0",
