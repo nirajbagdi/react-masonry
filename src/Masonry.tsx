@@ -21,7 +21,6 @@ const Masonry = ({
     const containerRef = useRef<HTMLDivElement>(null);
     const [columns, setColumns] = useState(defaultColumns);
 
-    // Sort breakpoints once so they are evaluated in ascending width order
     const sortedBreakpoints = useMemo(
         () =>
             Object.entries(breakpoints)
@@ -30,7 +29,6 @@ const Masonry = ({
         [breakpoints]
     );
 
-    // Given a container width, find the matching column count
     const getColumnsForWidth = useCallback(
         (width: number) => {
             let cols = defaultColumns;
@@ -47,7 +45,6 @@ const Masonry = ({
         const container = containerRef.current;
         if (!container) return;
 
-        // ResizeObserver: adjusts column count dynamically when container width changes
         const observer = new ResizeObserver(([entry]) => {
             setColumns((prevCols) => {
                 const newCols = getColumnsForWidth(entry.contentRect.width);
@@ -59,7 +56,6 @@ const Masonry = ({
         return () => observer.disconnect();
     }, [getColumnsForWidth]);
 
-    // Distribute children into column arrays (round-robin style)
     const columnedChildren = useMemo(() => {
         const cols: ReactNode[][] = Array.from({ length: columns }, () => []);
 

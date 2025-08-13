@@ -6,7 +6,7 @@
 
 ## ✨ Features
 
--   **⚡ Tiny & Fast** – ~3KB gzipped, no dependencies
+-   **⚡ Tiny & Fast** – ~2.5KB gzipped, no dependencies
 -   **📱 Responsive by Design** – Set custom columns per screen size
 -   **🎨 Highly Customizable** – Change gaps, breakpoints, and base columns
 -   **💡 No Extra CSS** – All layout logic is inline styles
