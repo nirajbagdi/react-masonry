@@ -13,7 +13,7 @@ export type MasonryProps = {
 
 const Masonry = ({
     defaultColumns = 4,
-    breakpoints = { 480: 1, 768: 2, 1024: 3, 1440: 4 },
+    breakpoints = { 0: 1, 768: 2, 1024: 3, 1440: 4 },
     gap = '1.6rem',
     className,
     children,
