@@ -14,6 +14,12 @@
 
 ---
 
+## 🎥 Demo
+
+https://github.com/user-attachments/assets/efcf13c7-be2d-44bd-9ee1-a8eb39f690cc
+
+---
+
 ## 📦 Installation
 
 ```bash
